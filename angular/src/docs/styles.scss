@@ -2,6 +2,7 @@ $brand-font-folder: '~@collab-ui/core/fonts';
 $icon-font-path: '~@collab-ui/icons/fonts';
 $images-path: '~@collab-ui/core/images';
 
+@import '~@angular/cdk/overlay-prebuilt.css';
 @import '~@collab-ui/core/scss/collab-ui';
 
 @import '~@angular/cdk/overlay-prebuilt.css';

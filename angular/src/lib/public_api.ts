@@ -33,3 +33,4 @@ export * from './spinner';
 export * from './tabs';
 export * from './toggle-switch';
 export * from './topbar';
+export * from './popover';

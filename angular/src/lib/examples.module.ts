@@ -19,6 +19,7 @@ import { TabsExamplesModule } from './tabs/examples/examples.module';
 import { ToggleSwitchExamplesModule } from './toggle-switch/examples/toggle-switch-examples.module';
 import { EditableTextfieldExamplesModule } from './editable-textfield/examples/editable-textfield-examples.module';
 import { TopbarExamplesModule } from './topbar/examples/examples.module';
+import { PopoverExamplesModule } from './popover/examples/popover-examples.module';
 
 @NgModule({
   imports: [
@@ -41,6 +42,7 @@ import { TopbarExamplesModule } from './topbar/examples/examples.module';
     ToggleSwitchExamplesModule,
     EditableTextfieldExamplesModule,
     TopbarExamplesModule,
+    PopoverExamplesModule,
   ],
   exports: [
     AlertExamplesModule,
@@ -62,6 +64,7 @@ import { TopbarExamplesModule } from './topbar/examples/examples.module';
     ToggleSwitchExamplesModule,
     EditableTextfieldExamplesModule,
     TopbarExamplesModule,
+    PopoverExamplesModule
   ],
   declarations: [],
   providers: [],
